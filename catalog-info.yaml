@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Hee
+  title: Bkasd
+  description: A static HTML website. Just like the good old days.
+  links:
+    - url: https://RoadieHQ.github.io/Hee/
+      title: Live website
+  annotations:
+    github.com/project-slug: RoadieHQ/Hee
+spec:
+  type: website
+  owner: engineering
+  lifecycle: experimental
